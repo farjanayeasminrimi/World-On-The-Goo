@@ -1,0 +1,19 @@
+.Country {
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+.Countries {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.btn {
+  margin-top: 10px;
+  padding: 5px 8px;
+}
+.visited {
+  border-color: green;
+  background-color: rgb(4, 109, 74);
+}
